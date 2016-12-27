@@ -1,1 +1,0 @@
-Cufon.replace('.elgg-page h1, .elgg-page h2, .elgg-page h3, elgg-page h4, elgg-page h5');

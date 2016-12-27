@@ -1,1 +1,0 @@
-[17-Apr-2013 13:06:55 America/Los_Angeles] PHP Fatal error:  Call to undefined function elgg_get_logged_in_user_entity() in /home/anuradha/public_html/KonnectMe.org/mod/blog/views/default/blog/sidebar/archives.php on line 6
