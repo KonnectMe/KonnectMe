@@ -1,0 +1,1 @@
+[23-Apr-2013 23:10:00 America/Los_Angeles] PHP Fatal error:  Call to a member function getContainerEntity() on a non-object in /home/anuradha/public_html/KonnectMe.org/mod/tidypics/views/default/object/image/navigation.php on line 10

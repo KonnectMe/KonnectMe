@@ -1,0 +1,28 @@
+[12-Aug-2013 13:00:19] PHP WARNING: 2013-08-12 13:00:19 (PDT): "mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: User 'anuradha_sarathc' has exceeded the 'max_connections_per_hour' resource (current value: 1)" in file /home/anuradha/public_html/KonnectMe.org/engine/lib/database.php (line 110)
+[12-Aug-2013 13:00:19] Exception #1376337619: exception 'DatabaseException' with message 'Elgg couldn't connect to the database using the given credentials. Check the settings file.' in /home/anuradha/public_html/KonnectMe.org/engine/lib/database.php:113
+Stack trace:
+#0 /home/anuradha/public_html/KonnectMe.org/engine/lib/database.php(152): establish_db_link()
+#1 /home/anuradha/public_html/KonnectMe.org/engine/lib/elgglib.php(2158): setup_db_connections()
+#2 /home/anuradha/public_html/KonnectMe.org/engine/lib/elgglib.php(784): _elgg_engine_boot('readwrite')
+#3 /home/anuradha/public_html/KonnectMe.org/engine/start.php(99): elgg_trigger_event()
+#4 /home/anuradha/public_html/KonnectMe.org/mod/file/thumbnail.php(9): require_once('/home/anuradha/...')
+#5 {main}
+[12-Aug-2013 13:08:30] PHP WARNING: 2013-08-12 13:08:30 (PDT): "mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: User 'anuradha_sarathc' has exceeded the 'max_connections_per_hour' resource (current value: 1)" in file /home/anuradha/public_html/KonnectMe.org/engine/lib/database.php (line 110)
+[12-Aug-2013 13:08:30] Exception #1376338110: exception 'DatabaseException' with message 'Elgg couldn't connect to the database using the given credentials. Check the settings file.' in /home/anuradha/public_html/KonnectMe.org/engine/lib/database.php:113
+Stack trace:
+#0 /home/anuradha/public_html/KonnectMe.org/engine/lib/database.php(152): establish_db_link()
+#1 /home/anuradha/public_html/KonnectMe.org/engine/lib/elgglib.php(2158): setup_db_connections()
+#2 /home/anuradha/public_html/KonnectMe.org/engine/lib/elgglib.php(784): _elgg_engine_boot('readwrite')
+#3 /home/anuradha/public_html/KonnectMe.org/engine/start.php(99): elgg_trigger_event()
+#4 /home/anuradha/public_html/KonnectMe.org/mod/file/thumbnail.php(9): require_once('/home/anuradha/...')
+#5 {main}
+[12-Aug-2013 14:06:32] PHP WARNING: 2013-08-12 14:06:32 (PDT): "mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: User 'anuradha_sarathc' has exceeded the 'max_connections_per_hour' resource (current value: 1)" in file /home/anuradha/public_html/KonnectMe.org/engine/lib/database.php (line 110)
+[12-Aug-2013 14:06:32] Exception #1376341592: exception 'DatabaseException' with message 'Elgg couldn't connect to the database using the given credentials. Check the settings file.' in /home/anuradha/public_html/KonnectMe.org/engine/lib/database.php:113
+Stack trace:
+#0 /home/anuradha/public_html/KonnectMe.org/engine/lib/database.php(152): establish_db_link()
+#1 /home/anuradha/public_html/KonnectMe.org/engine/lib/elgglib.php(2158): setup_db_connections()
+#2 /home/anuradha/public_html/KonnectMe.org/engine/lib/elgglib.php(784): _elgg_engine_boot('readwrite')
+#3 /home/anuradha/public_html/KonnectMe.org/engine/start.php(99): elgg_trigger_event()
+#4 /home/anuradha/public_html/KonnectMe.org/mod/file/thumbnail.php(9): require_once('/home/anuradha/...')
+#5 {main}
+[31-Aug-2013 04:29:16] PHP WARNING: 2013-08-31 04:29:16 (PDT): "file_get_contents(/home/anuradha/kme2013files/2011/12/06/65/file/largethumb1364284914getattachment-2.jpeg) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory" in file /home/anuradha/public_html/KonnectMe.org/engine/classes/ElggDiskFilestore.php (line 234)
